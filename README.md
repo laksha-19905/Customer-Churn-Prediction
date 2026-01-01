@@ -1,20 +1,21 @@
-# Customer Churn Prediction Using Machine Learning
+# Employee Attrition Analysis Using Machine Learning
 
 ## Project Objective
-The objective of this project is to predict customer churn using machine learning techniques. 
-Customer churn refers to customers who stop using a company’s services. 
-By identifying churn-prone customers, businesses can take preventive actions to improve retention.
+The objective of this project is to analyze employee data and predict employee attrition.
+Employee attrition refers to employees leaving an organization.
+By predicting attrition, companies can take proactive steps to improve employee retention.
 
 ## Dataset Used
-Telco Customer Churn Dataset  
-The dataset contains customer details such as:
-- Gender
-- Senior citizen status
-- Contract type
-- Monthly charges
-- Tenure
-- Payment method
-- Churn status (Yes/No)
+IBM HR Analytics – Employee Attrition Dataset
+
+The dataset includes employee information such as:
+- Age
+- Job Role
+- Monthly Income
+- Job Satisfaction
+- Overtime
+- Work-Life Balance
+- Attrition status (Yes/No)
 
 ## Tools and Technologies
 - Python
@@ -30,27 +31,28 @@ The dataset contains customer details such as:
 
 ## Methodology
 1. Loaded and explored the dataset
-2. Handled missing values and data type issues
+2. Removed unnecessary columns
 3. Encoded categorical variables
-4. Split data into training and testing sets
-5. Trained machine learning models
-6. Evaluated models using Accuracy and ROC-AUC score
-7. Analyzed feature importance
+4. Split the data into training and testing sets
+5. Applied feature scaling for Logistic Regression
+6. Trained machine learning models
+7. Evaluated models using Accuracy and ROC-AUC score
+8. Analyzed feature importance
 
 ## Results
 - Random Forest achieved higher accuracy compared to Logistic Regression
-- ROC-AUC score indicates good prediction capability
-- Model successfully identifies churn-prone customers
+- The model effectively predicts employees likely to leave the organization
+- ROC-AUC score indicates good model performance
 
-## Business Insights
-- Customers with month-to-month contracts churn more
-- Higher monthly charges increase churn probability
-- Longer customer tenure reduces churn
-- Contract type and tenure are key factors affecting churn
+## Key Insights
+- Employees working overtime are more likely to leave
+- Low job satisfaction increases attrition
+- Monthly income and job role significantly impact attrition
+- Work-life balance plays a major role in employee retention
 
 ## Conclusion
-The Customer Churn Prediction model helps businesses identify customers likely to leave.
-Using this model, companies can improve customer retention strategies and reduce revenue loss.
+Employee Attrition Analysis helps organizations identify risk factors that lead to employee turnover.
+Using machine learning models, companies can implement better HR strategies to retain employees and reduce attrition.
 
 ## Author
-Internship Project – Customer Churn Prediction
+Internship Project – Employee Attrition Analysis
